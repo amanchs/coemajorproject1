@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100%;
+  background-image: url('Gwagonforcontactus.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header{
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+main{
+    height:500px;
+    width: 100%;
+}
+
+.main-box{
+    display: block;
+    justify-self: center;
+    align-items: center;
+}
+
+.socailmedia-icons{
+  display: flex;
+  
+}
+.foot-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background: transparent;
+  }
+  .foot-sec:hover{
+    background-color: snow;
+  }
+  
+  .foot-sec .item{
+    display: flex;
+    column-gap: 20px;
+  }
+  
+  .foot-sec .item a{
+    text-decoration: none;
+    color: black;
+  }
+  
